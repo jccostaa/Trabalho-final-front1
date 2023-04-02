@@ -1,0 +1,130 @@
+
+* {
+    margin: 0;
+}
+body {
+    background-color: rgb(196, 196, 196);
+    display:flex;
+}
+header {
+    background-color: rgb(80, 19, 19);
+    width: 250px;
+    height: 100vh;
+}
+a {
+    text-decoration: none;
+    color:  rgb(174, 80, 80);
+}
+
+ol, ul{
+    position: absolute;
+    color:rgb(30, 30, 30);
+    top: 20%;
+    left: 22%;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+#imagem-perfil {
+    position: absolute;
+    left: 50px;
+    top: 110px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+#atalho1 {
+    text-decoration: none;
+    position: relative;
+    top: 330px;
+    left: 30px;
+    font-size: 15px;
+    font-family:Verdana, sans-serif;
+}
+#atalho2 {
+    position: relative;
+    top: 350px;
+    left: 30px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family:Verdana, sans-serif;
+}
+#atalho3 {
+    position: relative;
+    top: 370px;
+    left: 30px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family:Verdana, sans-serif;
+}
+h1 {
+    position: absolute;
+    color:rgb(30, 30, 30);
+    top: 30%;
+    left: 22%;
+    font-size: 70px;
+    font-family: 'Bebas Neue', cursive;
+}
+strong{
+    color:  rgb(80, 19, 19);
+}
+h2 {
+    position: absolute;
+    color:rgb(30, 30, 30);
+    top: 45%;
+    left: 22%;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+h3 {
+    position: absolute;
+    color:rgb(30, 30, 30);
+    top: 55%;
+    left: 22%;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+#div-linkedin{
+    position: absolute;
+    top: 480px;
+    left: 352px;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(196, 196, 196);
+    border-radius: 50%;
+}
+#div-github{
+    position: absolute;
+    top: 480px;
+    left: 432px;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(196, 196, 196);
+    border-radius: 50%;
+}
+#div-whatsapp{
+    position: absolute;
+    top: 480px;
+    left: 512px;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(196, 196, 196);
+    border-radius: 50%;
+}
+
+#div-facebook{
+    position: absolute;
+    top: 480px;
+    left: 592px;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(196, 196, 196);
+    border-radius: 50%;
+}
+#eips{
+    position: absolute;
+    color:rgb(30, 30, 30);
+    top: 8%;
+    left: 22%;
+    font-size: 70px;
+    font-family: 'Bebas Neue', cursive;
+}
